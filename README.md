@@ -1,14 +1,19 @@
-# Sistema de Busca Otimizado para Catálogo de Produtos - MegaStore
+# MegaStore - Sistema de Busca Simples para Catálogo de Produtos
 
-Este projeto implementa um sistema de busca simples e eficiente para o catálogo de produtos da MegaStore, utilizando Rust e `HashMap`.
+Este projeto implementa um sistema de busca simples para o catálogo de produtos da MegaStore, utilizando Rust e um `Vec<Produto>` como armazenamento em memória.
 
-# Tecnologias Utilizadas
+## Tecnologias Utilizadas
 
 - Rust
-- HashMap (std::collections)
-- cargo test (testes automatizados)
+- `cargo test` (testes automatizados)
+- `Vec` (armazenamento em memória)
 
-# Como Executar
+## Como Rodar
 
-`bash
+### Executar o binário
+
+```bashcargo --version     # Deve mostrar a versão
+rustc --version     # Deve mostrar o compilador
+cargo test          # Roda seus testes
+
 cargo run
